@@ -1,0 +1,59 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+.Admin-body {
+    background-image: url("https://c4.wallpaperflare.com/wallpaper/171/914/407/animals-digital-art-pumas-minimalism-wallpaper-preview.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-position-y: bottom;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* .logOut-div {
+    width: 300px;
+    height: 300px;
+    background-image: linear-gradient(to right, rgb(124, 240, 232), rgb(238, 132, 192));
+    margin-top: 10%;
+    border-radius: 15px;
+} */
+
+/* .logOut-div h2 {
+    margin-top: 15%;
+    color: white;
+    text-shadow: 2px 2px black;
+    
+} */
+h2 {
+    margin-top: 20%;
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(86, 232, 218), rgb(222, 68, 166));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#logout-btn ,#user-btn{
+    margin: 10%;
+    width: 25%;
+    height: 5%;
+    border-radius: 30px;
+    text-transform: capitalize;
+    outline: none;
+    border: white;
+}
+
+#logout-btn:hover {
+
+    border: 1px solid black;
+    color: crimson;
+}
+#user-btn:hover{
+    border: 1px solid black;
+    color: crimson;
+}

@@ -1,0 +1,32 @@
+@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css";
+
+*{
+    padding:0%;
+    margin: 0%;
+}
+.input-div1{
+    border: 1px solid black;
+    width: 290px;
+    margin-left: 10%;
+}
+.input-div2{
+    border: 1px solid black;
+    width: 290px;
+    margin-left: 10%;
+}
+#input1{
+    border: none;
+    outline: none;
+    margin-left: 2%;
+}
+#cpass{
+    border: none;
+    outline: none;
+    margin-left: 2%;
+}
+.fa-arrow-down{
+    margin-left: 2%;
+}
+.fa-eye-slash{
+    margin-left: 1%;
+}
